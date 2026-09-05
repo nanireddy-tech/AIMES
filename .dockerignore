@@ -1,0 +1,7 @@
+.git
+.gitignore
+.pytest_cache
+medlens/.venv
+medlens/data/uploads
+frontend/node_modules
+medlens/frontend/node_modules

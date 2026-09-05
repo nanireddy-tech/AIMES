@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: medlens-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: AI_PROVIDER
+        value: mock
+      - key: PYTHON_VERSION
+        value: 3.12.0

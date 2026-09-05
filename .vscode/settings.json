@@ -1,0 +1,4 @@
+{
+  "chat.tools.autoApprove": true,
+  "python.defaultInterpreterPath": "${workspaceFolder}/medlens/.venv/bin/python"
+}
